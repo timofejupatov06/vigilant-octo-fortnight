@@ -1,0 +1,5 @@
+ def start_game(self):
+        print("Welcome to the Text Adventure Game!")
+        player_name = input("Enter your name: ")
+        self.player = Player(player_name)
+        self.current_room = self.load_room("start")
